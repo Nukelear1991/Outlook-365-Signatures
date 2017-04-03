@@ -20,7 +20,7 @@ $save_location = ' ' #declare where server side signature files save to
 Remove-Item $save_location\* -recurse #Remove server side signature files from existing directory
  
 #Define the Organizational Unit for users who you want signatures made.
-$users = Get-ADUser -filter * -searchbase "OU=Regular Users,OU=Users,OU=Automated Machine Systems,DC=ams,DC=local" -Properties * -credential domain\admin -server domaincontroller.com
+$users = Get-ADUser -filter * -searchbase "OU=Regular Users,OU=Users,OU=CompanyName,DC=domaincontroller,DC=local" -Properties * -credential domain\admin -server domaincontroller.com
 
 # Check last time signatures were created
 $Now = Get-Date -format "dd MMM yyyy hh:mm tt"
