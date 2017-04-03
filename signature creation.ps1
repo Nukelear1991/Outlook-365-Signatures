@@ -24,7 +24,7 @@ $users = Get-ADUser -filter * -searchbase "OU=Regular Users,OU=Users,OU=CompanyN
 
 # Check last time signatures were created
 $Now = Get-Date -format "dd MMM yyyy hh:mm tt"
-$srvr_upchck = "\\ams-dc01\Deployment\EmailSig\Resources\srvr_upchck.txt"
+$srvr_upchck = "\\server\Deployment\EmailSig\Resources\srvr_upchck.txt"
 
 #Check for the srvr_upchck.txt file, and replace with current date/time
 if ((test-path -path $srvr_upchck) -eq $True)
