@@ -90,7 +90,7 @@ foreach ($user in $users)
 	<strong>Company Name</strong><br>
 	$division
 	Street Address <br>
-	Jenison, MI 49428 <br>
+	City, State Zip Code <br>
 	(616) 111-1111: Office<br>
 	(616) 222-2222: Fax<br>
 	(877) 777-7777: Toll Free<br>
