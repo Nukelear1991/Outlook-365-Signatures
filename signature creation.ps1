@@ -6,8 +6,6 @@
 	
 	# Purpose: Automatically create outlook signature files to
 	# deploy organization wide.
-	
-	# Usage: Create a GPO to run this script at startup for each user.
 
 ########################################################################
 
