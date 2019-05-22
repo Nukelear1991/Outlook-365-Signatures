@@ -98,9 +98,9 @@ foreach ($user in $users)
 	<br>
 	<p class=MsoNormal style='text-autospace:none'><span style='font-size:8.0pt;
 	font-family:"Arial",sans-serif;color:black'>Learn more about <a
-	href="http://www.palmateerp.com/">PalMate ERP</a> &amp; <a
-	href="http://www.automatedmachinesystems.com/">Automated Machine Systems</a> |
-	Subscribe to our <a href="http://www.youtube.com/user/amssystems1">You Tube</a>
+	href="www.example.com">Example</a> &amp; <a
+	href="www.example.com">Example</a> |
+	Subscribe to our <a href="http://www.youtube.com/">You Tube</a>
 	channel<o:p></o:p></span></p>
 	<p class=MsoNormal><o:p>&nbsp;</o:p></p>
 	<p class=MsoNormal style='text-autospace:none'><span style='font-size:8.0pt;
